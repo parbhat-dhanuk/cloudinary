@@ -1,0 +1,13 @@
+
+//CORS setup
+
+npm i cors
+npm i @types/cors -D
+
+Go too root file App.ts and import below code
+
+import cors from "cors"
+app.use(cors({
+    origin:"*"
+}))
+

@@ -1,0 +1,16 @@
+step 1 
+
+All cloudinary setup code are available in  [src/middleware/cloudinary.ts]
+
+step 2
+
+cloudinary code are also present in [src/controllers/ProductController.ts]
+
+
+
+ // Upload image to Cloudinary
+      const uploadResult = await cloudinary.uploader.upload(file.path,{
+        folder:'parbhat'
+      });
+
+this code is required in create and update Method
